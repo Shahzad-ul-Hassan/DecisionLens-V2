@@ -62,3 +62,13 @@ Included in this phase:
 - governance notes
 - private analytics placement shell
 - admin-facing maturity summary
+
+## Phase 9 Additions
+- Help page
+- FAQ page
+- Support page
+- Monitoring shell page
+- Analytics shell page
+- production readiness docs
+- deployment and hardening guidance
+- admin production-readiness panel
