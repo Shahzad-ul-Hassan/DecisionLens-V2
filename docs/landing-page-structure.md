@@ -1,10 +1,29 @@
-# DecisionLens Landing Page Structure
+
+# Landing Page Structure
+
+Sections:
+
 1. Hero Section
-2. Calm Market Overview
-3. Inside the Dashboard
-4. How to Use DecisionLens
-5. Who It's For / Who It's Not For
-6. Access Layers
-7. Closing CTA
-8. Footer
-Tone: institutional, calm, no hype.
+- Platform title
+- Short description
+- CTA: Enter Dashboard
+
+2. Philosophy Section
+- No Signals
+- No Predictions
+- Decision Intelligence
+
+3. Feature Highlights
+- Market Context
+- Behavioral Review
+- Education System
+
+4. Platform Overview
+- Dashboard preview
+- Intelligence panels
+- Academy
+
+5. Footer
+- About
+- Terms
+- Contact
