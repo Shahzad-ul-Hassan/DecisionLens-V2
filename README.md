@@ -1,28 +1,12 @@
-# DecisionLens — Phase 1 Static MVP
+# DecisionLens — Phase 2 Core Intelligence Logic
 
-This ZIP is the cumulative Phase 1 build for DecisionLens.
+This is the cumulative Phase 2 build for DecisionLens.
 
-Included:
-- Professional landing page
-- Usable overview dashboard
-- Session strip
-- JSON-driven market overview, news, and watchlist
-- Basic sign in / sign up demo flow
-- Free vs premium route gating
-- Basic admin shell
-- Profile shell
-- Academy preview page
-- Root page structure for future phases
-
-Core philosophy:
-- No buy/sell calls
-- No predictions
-- No targets
-- No urgency
-- Context-first market intelligence
-
-## Demo Accounts
-- free@decisionlens.local / demo123
-- paid@decisionlens.local / demo123
-- admin@decisionlens.local / demo123
-- decisionlens2025@gmail.com / demo123
+Included in this phase:
+- Market Temperature engine (demo calculation model aligned to the locked blueprint)
+- Trend Window behavior (1W / 1M / 6M)
+- Window memory using localStorage
+- Confidence, Pressure, and Volatility Regime updates
+- Synchronized dashboard refresh on window switch
+- Cleaner market overview card logic
+- Edge-case friendly data structure for future server/API expansion
