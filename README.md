@@ -1,16 +1,28 @@
-# DecisionLens — Phase 0 (Project Foundation)
+# DecisionLens — Phase 1 Static MVP
 
-This is the **Phase 0 base structure** for the DecisionLens platform.
+This ZIP is the cumulative Phase 1 build for DecisionLens.
 
-Purpose of Phase 0:
-- Freeze project structure
-- Define architecture
-- Define styling tokens
-- Define rules & philosophy
-- Prepare for Phase 1 development
+Included:
+- Professional landing page
+- Usable overview dashboard
+- Session strip
+- JSON-driven market overview, news, and watchlist
+- Basic sign in / sign up demo flow
+- Free vs premium route gating
+- Basic admin shell
+- Profile shell
+- Academy preview page
+- Root page structure for future phases
 
-This phase does NOT include functional code yet.
-It prepares the system foundation.
+Core philosophy:
+- No buy/sell calls
+- No predictions
+- No targets
+- No urgency
+- Context-first market intelligence
 
-Next Phase:
-Phase 1 — Static MVP (Landing + Overview Dashboard)
+## Demo Accounts
+- free@decisionlens.local / demo123
+- paid@decisionlens.local / demo123
+- admin@decisionlens.local / demo123
+- decisionlens2025@gmail.com / demo123
