@@ -25,3 +25,12 @@ Included in this phase:
 - GitHub Activity Score
 - Project Maturity Band
 - Liquidity context summary
+
+## Phase 5 Additions
+- Premium Review Engine page
+- New review entry form
+- Local review history storage
+- Behavioral tags
+- Contextual tags
+- Learning suggestion banner
+- Weekly-style behavior summary block
