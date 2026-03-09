@@ -16,3 +16,12 @@ Included in this phase:
 - Institutional Context Stack cards
 - Narrative Dynamics cards
 - Context Summary block
+
+## Phase 4 Additions
+- Premium Liquidity Intelligence page
+- Liquidity event cards
+- Funding Strength
+- Liquidity Shock Index
+- GitHub Activity Score
+- Project Maturity Band
+- Liquidity context summary

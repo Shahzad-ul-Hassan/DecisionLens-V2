@@ -1,4 +1,100 @@
 {
-  "placeholder": true,
-  "note": "Phase 4 target"
+  "summary": {
+    "headline": "Current liquidity events suggest selective volatility pockets rather than broad market-wide disruption.",
+    "body": "Larger exchange attention remains relevant, but event quality and maturity still vary significantly. This layer is designed to clarify expected disturbance and capital depth \u2014 not to imply opportunity."
+  },
+  "events": [
+    {
+      "token": "RNDR",
+      "exchange": "Binance",
+      "listingType": "Spot",
+      "countdown": "Live",
+      "narrativeTag": "AI",
+      "fundingStrength": {
+        "score": 82,
+        "label": "Large"
+      },
+      "liquidityShockIndex": {
+        "score": 78,
+        "label": "High Shock Potential"
+      },
+      "githubActivity": {
+        "score": 74,
+        "label": "Active Development"
+      },
+      "maturityBand": "Established",
+      "volatilityPhase": "Elevated",
+      "officialLink": "https://www.binance.com/",
+      "note": "Funding Strength reflects expected capital depth, not price direction."
+    },
+    {
+      "token": "OP",
+      "exchange": "OKX",
+      "listingType": "Perp",
+      "countdown": "Scheduled",
+      "narrativeTag": "Layer-2",
+      "fundingStrength": {
+        "score": 67,
+        "label": "Medium"
+      },
+      "liquidityShockIndex": {
+        "score": 64,
+        "label": "Moderate Shock"
+      },
+      "githubActivity": {
+        "score": 71,
+        "label": "Active Development"
+      },
+      "maturityBand": "Growth Stage",
+      "volatilityPhase": "Scheduled",
+      "officialLink": "https://www.okx.com/",
+      "note": "Shock potential refers to short-term volatility variability."
+    },
+    {
+      "token": "AAVE",
+      "exchange": "MEXC",
+      "listingType": "Spot",
+      "countdown": "Announced",
+      "narrativeTag": "DeFi",
+      "fundingStrength": {
+        "score": 43,
+        "label": "Medium"
+      },
+      "liquidityShockIndex": {
+        "score": 41,
+        "label": "Limited Shock"
+      },
+      "githubActivity": {
+        "score": 58,
+        "label": "Moderate"
+      },
+      "maturityBand": "Growth Stage",
+      "volatilityPhase": "Announced",
+      "officialLink": "https://www.mexc.com/",
+      "note": "Project maturity is classification only, not quality judgment."
+    },
+    {
+      "token": "WLD",
+      "exchange": "Binance",
+      "listingType": "Perp",
+      "countdown": "Elevated",
+      "narrativeTag": "AI",
+      "fundingStrength": {
+        "score": 76,
+        "label": "Large"
+      },
+      "liquidityShockIndex": {
+        "score": 73,
+        "label": "Moderate Shock"
+      },
+      "githubActivity": {
+        "score": 46,
+        "label": "Moderate"
+      },
+      "maturityBand": "Growth Stage",
+      "volatilityPhase": "Elevated",
+      "officialLink": "https://www.binance.com/",
+      "note": "Elevated indicates short-term post-listing variability, not direction."
+    }
+  ]
 }
