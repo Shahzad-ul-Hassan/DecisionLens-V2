@@ -44,3 +44,12 @@ Included in this phase:
 - stage test shell
 - progress analytics shell
 - certification foundation
+
+## Phase 7 Additions
+- Macro Intelligence Library page
+- Reports Center page
+- Alerts Center page
+- macro term cards
+- reports summary and history shells
+- alerts categories and preference shell
+- quiet-hours and daily-cap display
