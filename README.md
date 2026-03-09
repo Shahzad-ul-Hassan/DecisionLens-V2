@@ -53,3 +53,12 @@ Included in this phase:
 - reports summary and history shells
 - alerts categories and preference shell
 - quiet-hours and daily-cap display
+
+## Phase 8 Additions
+- Product maturity / integration layer
+- richer profile integration page
+- system summary block
+- product layer status cards
+- governance notes
+- private analytics placement shell
+- admin-facing maturity summary
