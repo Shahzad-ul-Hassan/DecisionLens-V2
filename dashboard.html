@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>DecisionLens — Dashboard</title>
+<link rel="stylesheet" href="assets/css/tokens.css" />
+<link rel="stylesheet" href="assets/css/base.css" />
+<link rel="stylesheet" href="assets/css/layout.css" />
+<link rel="stylesheet" href="assets/css/components.css" />
+<link rel="stylesheet" href="assets/css/pages.css" />
+<link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+<body data-page="dashboard">
+<div class="layout-page">
+<div id="site-header"></div>
+
+<main class="dashboard-shell">
+<div class="container">
+<div id="locked-banner" class="locked-banner" hidden></div>
+<section class="dashboard-head layout-spread">
+<div><span class="badge">Overview Dashboard</span><h1 style="margin-top:12px;">Market overview, sessions, and context at a glance.</h1><p id="access-note">Access note loading…</p></div>
+<div class="panel-nav"><a href="intelligence.html">Intelligence</a><a href="liquidity.html">Liquidity</a><a href="review.html">Review</a></div>
+</section>
+<section class="session-strip" id="sessions-strip"></section>
+<section class="layout-grid-2">
+<article class="card">
+<div class="layout-spread" style="margin-bottom:18px;">
+<div><h2>Market Temperature</h2><p>JSON-driven in Phase 1. Full calculation engine arrives in later phases.</p></div>
+<div class="window-toggle" aria-label="Trend window toggle">
+<button class="window-btn" data-window="1W" type="button">1W</button>
+<button class="window-btn" data-window="1M" type="button">1M</button>
+<button class="window-btn" data-window="6M" type="button">6M</button>
+</div>
+</div>
+<div class="layout-grid-4">
+<div class="card-soft kpi"><small>Temperature</small><span class="kpi-value" id="temperature-label">—</span></div>
+<div class="card-soft kpi"><small>Volatility Regime</small><span class="kpi-value" id="volatility-label">—</span></div>
+<div class="card-soft kpi"><small>Confidence</small><span class="kpi-value" id="confidence-label">—</span></div>
+<div class="card-soft kpi"><small>Pressure</small><span class="kpi-value" id="pressure-label">—</span></div>
+</div>
+<div class="card-soft alert-note" style="margin-top:18px;"><strong>Insight</strong><p id="insight-line" style="margin-top:8px;">—</p></div>
+</article>
+<article class="card"><h2>Watchlist Snapshot</h2><p>Focused observation without unnecessary noise.</p><div class="data-list" id="watchlist-list"></div></article>
+</section>
+<section class="layout-grid-2" style="margin-top:24px;">
+<article class="card"><h2>News Intelligence</h2><p>Concise relevance, organized for understanding — not reaction.</p><div class="data-list" id="news-list"></div></article>
+<article class="card"><h2>Access Layer Notes</h2><div class="layout-stack-md">
+<div class="card-soft"><strong>Free Layer</strong><p>Overview, sessions, selected context, limited academy preview.</p></div>
+<div class="card-soft"><strong>Premium Layer</strong><p>Intelligence, liquidity, review, deeper watchlists, reports, alerts.</p></div>
+<div class="card-soft"><strong>Admin Layer</strong><p>Manual subscription approval, governance, JSON uploads, user oversight.</p></div>
+</div></article>
+</section>
+</div>
+</main>
+
+<div id="site-footer"></div>
+</div>
+<script src="assets/js/auth.js"></script>
+<script src="assets/js/nav.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/intelligence-core.js"></script>
+<script src="assets/js/dashboard.js"></script>
+</body>
+</html>

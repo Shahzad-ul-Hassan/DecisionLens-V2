@@ -1,0 +1,14 @@
+@media (max-width: 1024px) {
+  .layout-grid-2,.placeholder-grid,.footer-grid { grid-template-columns: 1fr; }
+  .layout-grid-3 { grid-template-columns: 1fr 1fr; }
+  .layout-grid-4,.session-strip { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 720px) {
+  .container { width: min(var(--container), calc(100% - 20px)); }
+  .layout-section { padding: 48px 0; }
+  .layout-grid-3,.layout-grid-4,.session-strip { grid-template-columns: 1fr; }
+  .nav-links { display: none; }
+  .hero { padding-top: 42px; }
+  .card,.preview-panel { padding: 18px; }
+  .btn { width: 100%; }
+}

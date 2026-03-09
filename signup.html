@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>DecisionLens — Signup</title>
+<link rel="stylesheet" href="assets/css/tokens.css" />
+<link rel="stylesheet" href="assets/css/base.css" />
+<link rel="stylesheet" href="assets/css/layout.css" />
+<link rel="stylesheet" href="assets/css/components.css" />
+<link rel="stylesheet" href="assets/css/pages.css" />
+<link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+<body data-page="signup">
+<div class="layout-page">
+<div id="site-header"></div>
+
+<main class="page-hero">
+<div class="container layout-grid-2">
+<section class="card">
+<span class="badge">Create Demo Access</span>
+<h1 style="margin-top:12px;">Start with a structured free layer</h1>
+<p>In this MVP, sign up creates a local free account with pending-style access.</p>
+<form id="signup-form" class="form-stack">
+<div><label class="label" for="signup-name">Full name</label><input class="input" id="signup-name" type="text" required /></div>
+<div><label class="label" for="signup-email">Email</label><input class="input" id="signup-email" type="email" required /></div>
+<button class="btn btn-primary" type="submit">Create demo account</button>
+<p id="form-feedback"></p>
+</form>
+</section>
+<section class="card">
+<h2>What you get in Phase 1</h2>
+<div class="layout-stack-md">
+<div class="card-soft"><strong>Professional landing page</strong><p>Clear public-facing explanation of the platform.</p></div>
+<div class="card-soft"><strong>Usable overview dashboard</strong><p>Sessions, news, watchlist, and a JSON-driven temperature summary.</p></div>
+<div class="card-soft"><strong>Calm access layers</strong><p>Free, premium, and admin routes are already structured.</p></div>
+</div>
+</section>
+</div>
+</main>
+
+<div id="site-footer"></div>
+</div>
+<script src="assets/js/auth.js"></script>
+<script src="assets/js/nav.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/forms.js"></script>
+</body>
+</html>

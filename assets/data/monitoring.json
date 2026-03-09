@@ -1,0 +1,24 @@
+{
+  "cards": [
+    {
+      "title": "Uptime Monitoring",
+      "status": "Planned",
+      "detail": "Track public page uptime, premium routes, and admin route availability."
+    },
+    {
+      "title": "Error Logging",
+      "status": "Shell Ready",
+      "detail": "Capture client-side and later server-side issues for review."
+    },
+    {
+      "title": "Performance Tracking",
+      "status": "Planned",
+      "detail": "Monitor dashboard load speed, route transitions, and render stability."
+    },
+    {
+      "title": "Backup Discipline",
+      "status": "Planned",
+      "detail": "Define export, rollback, and restore strategy for future production layers."
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>DecisionLens — Academy</title>
+<link rel="stylesheet" href="assets/css/tokens.css" />
+<link rel="stylesheet" href="assets/css/base.css" />
+<link rel="stylesheet" href="assets/css/layout.css" />
+<link rel="stylesheet" href="assets/css/components.css" />
+<link rel="stylesheet" href="assets/css/pages.css" />
+<link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+<body data-page="academy">
+<div class="layout-page">
+  <div id="site-header"></div>
+
+  <main class="placeholder-page">
+    <div class="container">
+      <section class="page-hero">
+        <span class="badge">Academy System</span>
+        <h1 style="margin-top:12px;">Structured behavioral education for calmer market decisions</h1>
+        <p>This academy layer introduces a staged education roadmap designed to improve decision quality through mindset, context, bias awareness, and discipline.</p>
+      </section>
+
+      <section class="layout-grid-2">
+        <article class="card">
+          <h2>Current Progress</h2>
+          <p id="academy-access-note">—</p>
+          <div class="layout-stack-md">
+            <div class="card-soft kpi">
+              <small>Current Stage</small>
+              <span class="kpi-value" id="academy-current-stage">—</span>
+            </div>
+            <div class="card-soft kpi">
+              <small>Modules Completed</small>
+              <span class="kpi-value" id="academy-completed-count">—</span>
+            </div>
+            <div class="card-soft kpi">
+              <small>Test Pass Rate</small>
+              <span class="kpi-value" id="academy-pass-rate">—</span>
+            </div>
+            <div class="card-soft kpi">
+              <small>Average Attempt Per Stage</small>
+              <span class="kpi-value" id="academy-attempt-rate">—</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <h2>Stage Test Shell</h2>
+          <div class="layout-stack-md">
+            <div class="card-soft">
+              <strong>Retake Rule</strong>
+              <p id="academy-test-rule" style="margin-top:10px;">—</p>
+            </div>
+            <div class="card-soft">
+              <strong>MVP Note</strong>
+              <p id="academy-test-note" style="margin-top:10px;">—</p>
+            </div>
+            <div class="card-soft">
+              <strong>Guardrail</strong>
+              <p style="margin-top:10px;">No gamified ranking, no public scoreboards, and no emotional pass/fail framing.</p>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="layout-section" style="padding-top:24px;">
+        <article class="card">
+          <h2>Academy Roadmap</h2>
+          <p>24 modules grouped into foundation, context, bias, discipline, and capstone stages.</p>
+          <div id="academy-roadmap" class="layout-stack-md"></div>
+        </article>
+      </section>
+
+      <section class="layout-section" style="padding-top:24px;">
+        <article class="card">
+          <div class="layout-spread" style="margin-bottom:18px;">
+            <div>
+              <h2>Module Library</h2>
+              <p>Preview modules are available more openly; full modules are part of paid access in the MVP shell.</p>
+            </div>
+            <span class="badge">Phase 6 MVP</span>
+          </div>
+          <div id="academy-modules" class="layout-stack-md"></div>
+        </article>
+      </section>
+
+      <section class="layout-grid-2" style="padding-top:24px; padding-bottom:48px;">
+        <article class="card">
+          <h2>Progress Analytics Shell</h2>
+          <div class="layout-stack-md">
+            <div class="card-soft"><strong>Behavior Stability Score</strong><p style="margin-top:8px;">Reserved for private profile-linked analytics in later phases.</p></div>
+            <div class="card-soft"><strong>Bias Radar</strong><p style="margin-top:8px;">Future visual layer for impulse control, risk discipline, and narrative objectivity.</p></div>
+            <div class="card-soft"><strong>30-Day Trend</strong><p style="margin-top:8px;">Will be added as private development tracking in later phases.</p></div>
+          </div>
+        </article>
+
+        <article class="card">
+          <h2>Certification Foundation</h2>
+          <div class="layout-stack-md">
+            <div class="card-soft">
+              <strong id="academy-cert-title">—</strong>
+              <p id="academy-cert-status" style="margin-top:10px;">—</p>
+            </div>
+            <div class="card-soft">
+              <strong>Certification Note</strong>
+              <p id="academy-cert-note" style="margin-top:10px;">—</p>
+            </div>
+            <div class="card-soft alert-note">
+              <strong>Unlock State</strong>
+              <p id="academy-cert-unlock" style="margin-top:10px;">—</p>
+            </div>
+          </div>
+        </article>
+      </section>
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+</div>
+<script src="assets/js/auth.js"></script>
+<script src="assets/js/nav.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/academy-page.js"></script>
+</body>
+</html>

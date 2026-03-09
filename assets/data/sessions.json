@@ -1,0 +1,28 @@
+{
+  "sessions": [
+    {
+      "name": "Sydney",
+      "status": "Monitoring",
+      "time": "06:00 PM \u2013 03:00 AM PKT",
+      "note": "Lower global participation, useful for context shifts."
+    },
+    {
+      "name": "Tokyo",
+      "status": "Open",
+      "time": "05:00 AM \u2013 02:00 PM PKT",
+      "note": "Watch calm-to-active transition and FX sensitivity."
+    },
+    {
+      "name": "London",
+      "status": "Upcoming",
+      "time": "12:00 PM \u2013 09:00 PM PKT",
+      "note": "Liquidity typically broadens as Europe opens."
+    },
+    {
+      "name": "New York",
+      "status": "Later",
+      "time": "05:00 PM \u2013 02:00 AM PKT",
+      "note": "High-impact overlap and macro sensitivity window."
+    }
+  ]
+}

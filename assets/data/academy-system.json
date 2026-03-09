@@ -1,0 +1,116 @@
+{
+  "phases": [
+    {
+      "id": "A",
+      "title": "Foundation Phase",
+      "purpose": "Mind reset before structured market observation.",
+      "modules": [
+        "Market is Probability, Not Certainty",
+        "Fast vs Slow Thinking in Markets",
+        "Loss Aversion & Pain Response",
+        "Emotional Detachment & Probability Mindset"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Context Alignment Phase",
+      "purpose": "Understanding regime, volatility, liquidity, and narrative structure.",
+      "modules": [
+        "Regime Thinking",
+        "Risk-On vs Risk-Off Framework",
+        "Volatility as Environment, Not Enemy",
+        "Liquidity & Participation Cycles",
+        "Narrative Rotation & Capital Flow",
+        "Correlation Shifts"
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Bias Exposure Phase",
+      "purpose": "Understanding recurring emotional and cognitive distortions.",
+      "modules": [
+        "FOMO & Social Contagion",
+        "Confirmation Bias in Narratives",
+        "Recency Bias in Volatile Phases",
+        "Overconfidence After Wins",
+        "Anchoring & Price Fixation"
+      ]
+    },
+    {
+      "id": "D",
+      "title": "Process & Discipline Phase",
+      "purpose": "Turning awareness into structured decision behavior.",
+      "modules": [
+        "Defining Risk Before Action",
+        "Position Sizing by Environment",
+        "Trade Logging & Pattern Recognition",
+        "Loss Clustering & Cooldown Protocol",
+        "Structured Entry Thinking",
+        "Managing Winners Without Emotional Drift",
+        "Break Strategy (When Not to Trade)",
+        "Building a Personal Decision Framework"
+      ]
+    },
+    {
+      "id": "FINAL",
+      "title": "Capstone",
+      "purpose": "Integrated synthesis across structure, bias, and discipline.",
+      "modules": [
+        "Structural vs Emotional Market Moves"
+      ]
+    }
+  ],
+  "moduleCards": [
+    {
+      "title": "Market is Probability, Not Certainty",
+      "stage": "A",
+      "readingTime": "4 min",
+      "type": "preview",
+      "summary": "Resets the expectation that markets should feel certain before action."
+    },
+    {
+      "title": "Fast vs Slow Thinking in Markets",
+      "stage": "A",
+      "readingTime": "5 min",
+      "type": "preview",
+      "summary": "Explains how urgency and volatility accelerate poor cognitive decisions."
+    },
+    {
+      "title": "Regime Thinking",
+      "stage": "B",
+      "readingTime": "6 min",
+      "type": "paid",
+      "summary": "Frames market behavior through changing environment rather than fixed assumptions."
+    },
+    {
+      "title": "FOMO & Social Contagion",
+      "stage": "C",
+      "readingTime": "4 min",
+      "type": "paid",
+      "summary": "Shows how crowd emotion distorts decision quality."
+    },
+    {
+      "title": "Defining Risk Before Action",
+      "stage": "D",
+      "readingTime": "5 min",
+      "type": "paid",
+      "summary": "Places risk definition ahead of action and emotional reaction."
+    },
+    {
+      "title": "Structural vs Emotional Market Moves",
+      "stage": "FINAL",
+      "readingTime": "6 min",
+      "type": "paid",
+      "summary": "Final integration layer for broader decision intelligence."
+    }
+  ],
+  "tests": {
+    "rule": "Max 3 attempts per 24 hours in later production phases.",
+    "currentMVP": "Phase 6 provides a structured shell and demo stage test card only."
+  },
+  "certification": {
+    "title": "Decision Intelligence Practitioner",
+    "status": "Foundation only in MVP",
+    "note": "Final certificate will unlock only after full academy completion in later phases."
+  }
+}

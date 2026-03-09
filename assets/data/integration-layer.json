@@ -1,0 +1,66 @@
+{
+  "productSummary": {
+    "headline": "DecisionLens has now matured into a connected multi-layer decision intelligence product shell.",
+    "body": "The overview, intelligence, liquidity, review, academy, macro, reports, alerts, profile, and admin layers now work together as a unified MVP structure. This phase focuses on cohesion, private analytics placement, and clearer system governance."
+  },
+  "layerStatus": [
+    {
+      "name": "Overview",
+      "status": "Active",
+      "detail": "Core temperature, sessions, news, and watchlist context."
+    },
+    {
+      "name": "Intelligence",
+      "status": "Premium",
+      "detail": "Institutional context and narrative observation layers."
+    },
+    {
+      "name": "Liquidity",
+      "status": "Premium",
+      "detail": "Structured listing/event intelligence with guardrails."
+    },
+    {
+      "name": "Review",
+      "status": "Premium",
+      "detail": "Private reflection, patterns, and learning linkage."
+    },
+    {
+      "name": "Academy",
+      "status": "Hybrid",
+      "detail": "Preview plus full structured education system."
+    },
+    {
+      "name": "Macro",
+      "status": "Active",
+      "detail": "Reference library for terms, impact, and dashboard connection."
+    },
+    {
+      "name": "Reports",
+      "status": "Premium",
+      "detail": "Weekly/monthly intelligence summary shell."
+    },
+    {
+      "name": "Alerts",
+      "status": "Premium",
+      "detail": "Context notification center with quiet-hour logic shell."
+    },
+    {
+      "name": "Admin",
+      "status": "Governed",
+      "detail": "Manual approvals, user oversight, and policy shell."
+    }
+  ],
+  "governanceNotes": [
+    "DecisionLens never uses buy/sell language, targets, or urgency framing.",
+    "Private development metrics belong in Profile and Academy analytics, not the main dashboard.",
+    "Notifications are context-oriented and subject to quiet hours, daily caps, and neutral tone.",
+    "Premium pages remain guarded while the product evolves toward production automation.",
+    "Admin power cannot override the platform philosophy."
+  ],
+  "profileAnalytics": {
+    "behaviorStabilityPlacement": "Profile \u2192 private analytics only",
+    "progressAnalyticsPlacement": "Academy + Profile shell",
+    "leaderboardPolicy": "No public ranking, no social comparison, no competitive scoreboards.",
+    "currentMVPState": "Private analytics structure is now visible and placed correctly for later expansion."
+  }
+}

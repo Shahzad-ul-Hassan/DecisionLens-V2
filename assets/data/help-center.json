@@ -1,0 +1,29 @@
+{
+  "sections": [
+    {
+      "title": "Getting Started",
+      "items": [
+        "Create or use a demo account to access the platform.",
+        "Start with the Overview dashboard to understand sessions, temperature, and context.",
+        "Use Review and Academy together to improve decision quality over time."
+      ]
+    },
+    {
+      "title": "Access Layers",
+      "items": [
+        "Public: Landing, login, sign up.",
+        "Free: Overview, Macro, limited Academy preview, Profile.",
+        "Premium: Intelligence, Liquidity, Review, Reports, Alerts, full Academy.",
+        "Admin: Governance, manual approvals, oversight."
+      ]
+    },
+    {
+      "title": "Platform Philosophy",
+      "items": [
+        "DecisionLens provides context, not signals.",
+        "The system avoids targets, urgency, and hype language.",
+        "The goal is calmer and more structured decision-making."
+      ]
+    }
+  ]
+}

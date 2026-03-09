@@ -1,0 +1,39 @@
+{
+  "summaryCards": [
+    {
+      "title": "Weekly Overview",
+      "label": "Available",
+      "body": "Calm weekly recap of temperature, sessions, narratives, and liquidity context."
+    },
+    {
+      "title": "Monthly Regime Summary",
+      "label": "Premium",
+      "body": "Broader structural summary intended for medium-term context observation."
+    },
+    {
+      "title": "Saved Intelligence Snapshots",
+      "label": "Future",
+      "body": "Archived summaries and later export-friendly views."
+    }
+  ],
+  "reportHistory": [
+    {
+      "date": "2026-03-02",
+      "title": "Weekly Context Summary",
+      "type": "Weekly",
+      "status": "Preview"
+    },
+    {
+      "date": "2026-03-01",
+      "title": "Monthly Regime Note",
+      "type": "Monthly",
+      "status": "Premium"
+    },
+    {
+      "date": "2026-02-24",
+      "title": "Weekly Context Summary",
+      "type": "Weekly",
+      "status": "Preview"
+    }
+  ]
+}

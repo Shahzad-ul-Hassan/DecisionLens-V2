@@ -1,0 +1,26 @@
+{
+  "totalUsers": 124,
+  "activeUsers": 37,
+  "pendingApprovals": 6,
+  "revenueCounter": "$296",
+  "pending": [
+    {
+      "email": "user01@example.com",
+      "plan": "monthly",
+      "txid": "TRC20-AX18",
+      "status": "pending"
+    },
+    {
+      "email": "user02@example.com",
+      "plan": "monthly",
+      "txid": "TRC20-QW29",
+      "status": "pending"
+    },
+    {
+      "email": "user03@example.com",
+      "plan": "monthly",
+      "txid": "TRC20-ZP88",
+      "status": "pending"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "defaultWindow": "1W",
+    "windows": [
+      "1W",
+      "1M",
+      "6M"
+    ],
+    "groupWeights": {
+      "crypto": 0.3,
+      "indices": 0.3,
+      "commodities": 0.2,
+      "bonds": 0.1,
+      "forex": 0.1
+    }
+  },
+  "windows": {
+    "1W": {
+      "cap": 8,
+      "volatilityThresholds": {
+        "calm": 1.2,
+        "cautious": 2.5
+      },
+      "groups": {
+        "crypto": [
+          2.1,
+          1.6,
+          0.9,
+          1.2
+        ],
+        "indices": [
+          0.8,
+          1.0,
+          0.6
+        ],
+        "commodities": [
+          0.4,
+          -0.3,
+          0.1
+        ],
+        "bonds": [
+          1.1
+        ],
+        "forex": [
+          0.5
+        ]
+      },
+      "proxyAbsReturns": [
+        2.1,
+        0.8,
+        0.5,
+        0.4,
+        1.1
+      ],
+      "previousT": -0.02
+    },
+    "1M": {
+      "cap": 15,
+      "volatilityThresholds": {
+        "calm": 1.92,
+        "cautious": 4.0
+      },
+      "groups": {
+        "crypto": [
+          6.8,
+          5.9,
+          4.6,
+          3.8
+        ],
+        "indices": [
+          3.1,
+          2.8,
+          2.3
+        ],
+        "commodities": [
+          1.2,
+          0.5,
+          0.8
+        ],
+        "bonds": [
+          -0.7
+        ],
+        "forex": [
+          -0.4
+        ]
+      },
+      "proxyAbsReturns": [
+        6.8,
+        3.1,
+        0.4,
+        1.2,
+        0.7
+      ],
+      "previousT": 0.12
+    },
+    "6M": {
+      "cap": 30,
+      "volatilityThresholds": {
+        "calm": 2.88,
+        "cautious": 6.0
+      },
+      "groups": {
+        "crypto": [
+          19.0,
+          16.5,
+          12.0,
+          8.5
+        ],
+        "indices": [
+          11.5,
+          9.2,
+          7.4
+        ],
+        "commodities": [
+          3.0,
+          1.2,
+          2.5
+        ],
+        "bonds": [
+          -1.4
+        ],
+        "forex": [
+          -0.9
+        ]
+      },
+      "proxyAbsReturns": [
+        19.0,
+        11.5,
+        0.9,
+        3.0,
+        1.4
+      ],
+      "previousT": 0.29
+    }
+  }
+}

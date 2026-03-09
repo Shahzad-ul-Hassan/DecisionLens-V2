@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0; font-family: var(--font-ui);
+  background:
+    radial-gradient(circle at top right, rgba(112,184,255,0.12), transparent 28%),
+    linear-gradient(180deg, #09111d 0%, #0b1220 50%, #0a1020 100%);
+  color: var(--text); line-height: 1.6;
+}
+img { max-width: 100%; display: block; }
+a { color: var(--accent-2); text-decoration: none; }
+a:hover { color: #d6ebff; }
+button, input, textarea, select { font: inherit; }
+button { cursor: pointer; border: 0; }
+h1, h2, h3, h4 { margin: 0 0 var(--space-3); line-height: 1.15; letter-spacing: -0.02em; }
+p { margin: 0 0 var(--space-3); color: var(--text-soft); }
+ul { margin: 0; padding-left: 1.2rem; color: var(--text-soft); }
+small { color: var(--muted); }
+code.inline-code { background: rgba(255,255,255,0.06); padding: 2px 6px; border-radius: 8px; }

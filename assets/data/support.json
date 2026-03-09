@@ -1,0 +1,25 @@
+{
+  "channels": [
+    {
+      "name": "General Support",
+      "detail": "Use for account, access, or navigation help."
+    },
+    {
+      "name": "Subscription Review",
+      "detail": "Use for payment proof, activation, or expiry questions."
+    },
+    {
+      "name": "Bug Report",
+      "detail": "Use when a page, route, or interaction is not working as expected."
+    },
+    {
+      "name": "Feature Guidance",
+      "detail": "Use for help understanding platform structure and intended workflows."
+    }
+  ],
+  "policy": [
+    "Support does not provide trading advice.",
+    "Support does not interpret market direction for users.",
+    "Support addresses platform usage, access, and technical issues."
+  ]
+}

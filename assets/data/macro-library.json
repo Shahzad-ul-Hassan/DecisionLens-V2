@@ -1,0 +1,79 @@
+{
+  "sections": [
+    {
+      "title": "Core U.S. Macro Drivers",
+      "items": [
+        {
+          "term": "CPI",
+          "meaning": "Consumer inflation indicator",
+          "impact": "Higher inflation can tighten risk appetite and alter rate expectations.",
+          "connection": "Useful for interpreting regime shifts and volatility sensitivity."
+        },
+        {
+          "term": "FOMC",
+          "meaning": "Federal Open Market Committee",
+          "impact": "Rate language can reshape broader liquidity expectations.",
+          "connection": "Relevant for Market Temperature and macro context layers."
+        },
+        {
+          "term": "DXY",
+          "meaning": "U.S. Dollar Index",
+          "impact": "A stronger dollar often changes global risk conditions.",
+          "connection": "Important regime input inside DecisionLens overview logic."
+        },
+        {
+          "term": "US10Y Yield",
+          "meaning": "10-year Treasury yield",
+          "impact": "Rising yields can tighten broader financial conditions.",
+          "connection": "Used conceptually in temperature and defensive context framing."
+        }
+      ]
+    },
+    {
+      "title": "Liquidity & Monetary Mechanics",
+      "items": [
+        {
+          "term": "QT",
+          "meaning": "Quantitative Tightening",
+          "impact": "Reduces liquidity support and can pressure risk assets.",
+          "connection": "Helps explain broader market temperature shifts."
+        },
+        {
+          "term": "QE",
+          "meaning": "Quantitative Easing",
+          "impact": "Adds liquidity support and can ease broader conditions.",
+          "connection": "Useful for long-cycle market context reading."
+        },
+        {
+          "term": "Reverse Repo",
+          "meaning": "Short-term liquidity absorption tool",
+          "impact": "Helps frame liquidity availability in the wider system.",
+          "connection": "Relevant to macro watch and liquidity context."
+        }
+      ]
+    },
+    {
+      "title": "Market Structure Terms",
+      "items": [
+        {
+          "term": "Risk-On",
+          "meaning": "More constructive risk appetite",
+          "impact": "Market participants show broader willingness to hold risk assets.",
+          "connection": "Directly linked to overview and intelligence labels."
+        },
+        {
+          "term": "Risk-Off",
+          "meaning": "Defensive market posture",
+          "impact": "Capital rotates toward safety and caution increases.",
+          "connection": "Important for context and review behavior interpretation."
+        },
+        {
+          "term": "Capital Rotation",
+          "meaning": "Money shifting between themes or sectors",
+          "impact": "Leadership changes without needing full-market alignment.",
+          "connection": "Relevant for Narrative Dynamics."
+        }
+      ]
+    }
+  ]
+}

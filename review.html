@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>DecisionLens — Review</title>
+<link rel="stylesheet" href="assets/css/tokens.css" />
+<link rel="stylesheet" href="assets/css/base.css" />
+<link rel="stylesheet" href="assets/css/layout.css" />
+<link rel="stylesheet" href="assets/css/components.css" />
+<link rel="stylesheet" href="assets/css/pages.css" />
+<link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+<body data-page="review">
+<div class="layout-page">
+  <div id="site-header"></div>
+
+  <main class="placeholder-page">
+    <div class="container">
+      <div id="locked-banner" class="locked-banner" hidden></div>
+
+      <section class="page-hero">
+        <span class="badge">Premium Review Engine</span>
+        <h1 style="margin-top:12px;">Private review, pattern detection, and structured reflection</h1>
+        <p>This page helps users review behavior, identify repeated patterns, and connect them with the appropriate learning path.</p>
+      </section>
+
+      <section class="layout-grid-2">
+        <article class="card">
+          <h2>New Review Entry</h2>
+          <p>Structured review encourages calmer learning after action.</p>
+
+          <form id="review-form" class="form-stack">
+            <div>
+              <label class="label" for="review-market">Market / Asset</label>
+              <input class="input" id="review-market" type="text" placeholder="e.g. BTC" required />
+            </div>
+
+            <div>
+              <label class="label" for="review-date">Date</label>
+              <input class="input" id="review-date" type="date" required />
+            </div>
+
+            <div>
+              <label class="label" for="review-summary">What happened?</label>
+              <textarea class="input" id="review-summary" rows="5" placeholder="Describe the decision and what influenced it." required style="padding:14px;"></textarea>
+            </div>
+
+            <div>
+              <label class="label" for="behavior-tags">Behavior Tags</label>
+              <select class="select" id="behavior-tags" multiple size="6"></select>
+            </div>
+
+            <div>
+              <label class="label" for="context-tags">Context Tags</label>
+              <select class="select" id="context-tags" multiple size="5"></select>
+            </div>
+
+            <div>
+              <label class="label" for="review-lesson">Lesson / Reflection</label>
+              <textarea class="input" id="review-lesson" rows="4" placeholder="What did this teach you?" style="padding:14px;"></textarea>
+            </div>
+
+            <button class="btn btn-primary" type="submit">Save Review Entry</button>
+            <p id="review-feedback"></p>
+          </form>
+        </article>
+
+        <article class="card">
+          <h2>Behavior Summary</h2>
+          <p>Weekly-style pattern view for the MVP stage.</p>
+
+          <div class="layout-stack-md">
+            <div class="card-soft kpi">
+              <small>Total Review Entries</small>
+              <span class="kpi-value" id="review-total">—</span>
+            </div>
+            <div class="card-soft kpi">
+              <small>Top Behavior Pattern</small>
+              <span class="kpi-value" id="review-top-behavior">—</span>
+            </div>
+            <div class="card-soft kpi">
+              <small>Top Context Pattern</small>
+              <span class="kpi-value" id="review-top-context">—</span>
+            </div>
+            <div class="card-soft alert-note">
+              <strong>Learning Suggestion</strong>
+              <p id="review-suggestion" style="margin-top:10px;">—</p>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="layout-section" style="padding-top:24px;">
+        <article class="card">
+          <h2>Review History</h2>
+          <p>Private review entries with behavioral and contextual tags.</p>
+          <div id="review-history-list" class="layout-stack-md"></div>
+        </article>
+      </section>
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+</div>
+<script src="assets/js/auth.js"></script>
+<script src="assets/js/nav.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/gates.js"></script>
+<script src="assets/js/review-page.js"></script>
+</body>
+</html>

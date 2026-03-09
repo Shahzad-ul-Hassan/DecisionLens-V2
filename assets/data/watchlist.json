@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "symbol": "BTC",
+      "state": "Structured watch",
+      "note": "Track temperature, volatility, and cross-asset alignment."
+    },
+    {
+      "symbol": "ETH",
+      "state": "Selective watch",
+      "note": "Useful for breadth and narrative participation context."
+    },
+    {
+      "symbol": "DXY",
+      "state": "Macro watch",
+      "note": "Dollar strength remains an important regime input."
+    },
+    {
+      "symbol": "XAUUSD",
+      "state": "Defensive watch",
+      "note": "Gold helps frame broader risk sentiment."
+    }
+  ]
+}

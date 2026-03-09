@@ -1,0 +1,25 @@
+{
+  "windows": {
+    "1W": {
+      "temperature": "Cautious",
+      "volatility": "Volatile pockets",
+      "confidence": "Moderate",
+      "pressure": "Stable",
+      "insight": "Tone is Cautious with Volatile pockets; confidence is Moderate as cross-asset alignment is mixed."
+    },
+    "1M": {
+      "temperature": "Constructive",
+      "volatility": "Cautious",
+      "confidence": "Moderate",
+      "pressure": "Easing pressure",
+      "insight": "Tone is Constructive with a Cautious regime; confidence is Moderate as broader participation is improving."
+    },
+    "6M": {
+      "temperature": "Risk-On",
+      "volatility": "Calm",
+      "confidence": "High",
+      "pressure": "Stable",
+      "insight": "Tone is Risk-On in a Calm regime; confidence is High as cross-asset alignment remains broad."
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "categories": [
+    {
+      "name": "Session Shifts",
+      "description": "Open, pre-open, and close awareness without urgency framing."
+    },
+    {
+      "name": "Structural Changes",
+      "description": "Band/state changes like temperature, volatility, or readiness shifts."
+    },
+    {
+      "name": "Learning Reminders",
+      "description": "Gentle reminders for review and academy continuity."
+    },
+    {
+      "name": "Account & Subscription",
+      "description": "Approval, expiry, and account-state notifications."
+    }
+  ],
+  "settings": {
+    "channels": [
+      "Email",
+      "Telegram"
+    ],
+    "frequencyModes": [
+      "Balanced",
+      "Minimal"
+    ],
+    "quietHoursDefault": "11:00 PM \u2013 07:00 AM",
+    "dailyCaps": {
+      "free": "3/day",
+      "paid": "8/day"
+    }
+  },
+  "sampleFeed": [
+    {
+      "title": "London session open approaching",
+      "impact": "Low",
+      "reason": "Why it matters: liquidity usually broadens as Europe opens."
+    },
+    {
+      "title": "Temperature band changed to Constructive",
+      "impact": "Medium",
+      "reason": "Why it matters: broader context has improved, but no trigger is implied."
+    },
+    {
+      "title": "Academy inactivity reminder",
+      "impact": "Low",
+      "reason": "Why it matters: structured review improves retention over time."
+    }
+  ]
+}

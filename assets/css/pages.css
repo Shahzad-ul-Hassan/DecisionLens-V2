@@ -1,0 +1,14 @@
+.hero { padding: 72px 0 36px; }
+.hero-copy { display: grid; gap: var(--space-5); }
+.dashboard-shell { padding: 28px 0 60px; }
+.dashboard-head { margin-bottom: var(--space-5); }
+.session-strip { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--space-4); margin: var(--space-5) 0 var(--space-6); }
+.session-card { border-radius: 18px; background: rgba(255,255,255,0.04); border: 1px solid var(--border); padding: 16px; }
+.window-toggle { display: inline-flex; gap: 8px; border: 1px solid var(--border); background: rgba(255,255,255,0.04); border-radius: 14px; padding: 6px; }
+.window-btn { min-width: 56px; min-height: 34px; border-radius: 10px; background: transparent; color: var(--text-soft); }
+.window-btn.is-active { background: rgba(112,184,255,0.16); color: var(--text); }
+.hero-mini-list { display: grid; gap: 10px; }
+.page-hero { padding: 54px 0 24px; }
+.placeholder-page { padding: 12px 0 64px; }
+.placeholder-grid { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: var(--space-5); }
+.empty-state { padding: 18px 0 0; color: var(--muted); }

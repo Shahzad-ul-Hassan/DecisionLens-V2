@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "q": "Does DecisionLens give buy or sell signals?",
+      "a": "No. It is a decision-intelligence platform focused on context, structure, and disciplined interpretation."
+    },
+    {
+      "q": "Why are some pages locked?",
+      "a": "Premium layers are separated from the free layer so the product can organize deeper tools and advanced context more clearly."
+    },
+    {
+      "q": "Is the Academy a trading course?",
+      "a": "Not in the usual sense. It is a behavioral education layer focused on mindset, context, bias, and discipline."
+    },
+    {
+      "q": "Are alerts trade calls?",
+      "a": "No. Alerts are designed for session awareness, structural changes, learning reminders, and account-state updates."
+    },
+    {
+      "q": "Where do private analytics belong?",
+      "a": "Private analytics belong inside Profile and Academy-linked progress areas, not on the main dashboard."
+    }
+  ]
+}

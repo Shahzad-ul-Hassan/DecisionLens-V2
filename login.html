@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>DecisionLens — Login</title>
+<link rel="stylesheet" href="assets/css/tokens.css" />
+<link rel="stylesheet" href="assets/css/base.css" />
+<link rel="stylesheet" href="assets/css/layout.css" />
+<link rel="stylesheet" href="assets/css/components.css" />
+<link rel="stylesheet" href="assets/css/pages.css" />
+<link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+<body data-page="login">
+<div class="layout-page">
+<div id="site-header"></div>
+
+<main class="page-hero">
+<div class="container layout-grid-2">
+<section class="card">
+<span class="badge">Demo Login</span>
+<h1 style="margin-top:12px;">Sign in to the DecisionLens MVP</h1>
+<p>Use one of the included demo accounts from the README file.</p>
+<form id="login-form" class="form-stack">
+<div><label class="label" for="login-email">Email</label><input class="input" id="login-email" type="email" required /></div>
+<div><label class="label" for="login-password">Password</label><input class="input" id="login-password" type="password" required /></div>
+<button class="btn btn-primary" type="submit">Sign in</button>
+<p id="form-feedback"></p>
+</form>
+</section>
+<section class="card">
+<h2>Demo access options</h2>
+<div class="layout-stack-md">
+<div class="card-soft"><strong>Free User</strong><p><code class="inline-code">free@decisionlens.local</code> / <code class="inline-code">demo123</code></p></div>
+<div class="card-soft"><strong>Paid User</strong><p><code class="inline-code">paid@decisionlens.local</code> / <code class="inline-code">demo123</code></p></div>
+<div class="card-soft"><strong>Admin</strong><p><code class="inline-code">admin@decisionlens.local</code> / <code class="inline-code">demo123</code></p></div>
+</div>
+</section>
+</div>
+</main>
+
+<div id="site-footer"></div>
+</div>
+<script src="assets/js/auth.js"></script>
+<script src="assets/js/nav.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/forms.js"></script>
+</body>
+</html>

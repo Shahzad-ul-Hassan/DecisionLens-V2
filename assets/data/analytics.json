@@ -1,0 +1,30 @@
+{
+  "cards": [
+    {
+      "title": "User Activity Review",
+      "status": "Shell Ready",
+      "detail": "Observe page usage and product flow without invasive tracking language."
+    },
+    {
+      "title": "Feature Usage",
+      "status": "Planned",
+      "detail": "Understand which product layers users engage with most often."
+    },
+    {
+      "title": "Retention Signals",
+      "status": "Planned",
+      "detail": "Track continued use of Review, Academy, and Reports over time."
+    },
+    {
+      "title": "Admin Oversight Metrics",
+      "status": "Shell Ready",
+      "detail": "Summaries for approvals, active users, and system growth."
+    }
+  ],
+  "guardrails": [
+    "No manipulative growth nudges.",
+    "No dark-pattern analytics.",
+    "No public scoreboards or behavioral shaming.",
+    "Analytics should support product clarity and operational health."
+  ]
+}

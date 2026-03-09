@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>DecisionLens — Profile</title>
+<link rel="stylesheet" href="assets/css/tokens.css" />
+<link rel="stylesheet" href="assets/css/base.css" />
+<link rel="stylesheet" href="assets/css/layout.css" />
+<link rel="stylesheet" href="assets/css/components.css" />
+<link rel="stylesheet" href="assets/css/pages.css" />
+<link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+<body data-page="profile">
+<div class="layout-page">
+  <div id="site-header"></div>
+
+  <main class="placeholder-page">
+    <div class="container">
+      <section class="page-hero">
+        <span class="badge">Profile & Product Integration</span>
+        <h1 style="margin-top:12px;">Private account state, analytics placement, and product maturity view</h1>
+        <p>This page now acts as both a private user layer and an integration view for the broader DecisionLens product structure.</p>
+      </section>
+
+      <section class="layout-grid-2">
+        <article class="card">
+          <h2>Account</h2>
+          <div class="layout-stack-md">
+            <div class="data-row"><strong>Name</strong><span id="profile-name">—</span></div>
+            <div class="data-row"><strong>Email</strong><span id="profile-email">—</span></div>
+            <div class="data-row"><strong>Role</strong><span id="profile-role">—</span></div>
+            <div class="data-row"><strong>Plan</strong><span id="profile-plan">—</span></div>
+            <div class="data-row"><strong>Status</strong><span id="profile-status">—</span></div>
+          </div>
+        </article>
+
+        <article class="card">
+          <h2>System Summary</h2>
+          <div class="card-soft alert-note">
+            <strong id="integration-summary-headline">—</strong>
+            <p id="integration-summary-body" style="margin-top:10px;">—</p>
+          </div>
+        </article>
+      </section>
+
+      <section class="layout-section" style="padding-top:24px;">
+        <article class="card">
+          <h2>Private Analytics Placement</h2>
+          <div class="layout-grid-2">
+            <div class="layout-stack-md">
+              <div class="card-soft">
+                <strong>Behavior Stability Placement</strong>
+                <p id="profile-analytics-placement" style="margin-top:8px;">—</p>
+              </div>
+              <div class="card-soft">
+                <strong>Progress Analytics Placement</strong>
+                <p id="profile-progress-placement" style="margin-top:8px;">—</p>
+              </div>
+            </div>
+            <div class="layout-stack-md">
+              <div class="card-soft">
+                <strong>Leaderboard Policy</strong>
+                <p id="profile-leaderboard-policy" style="margin-top:8px;">—</p>
+              </div>
+              <div class="card-soft">
+                <strong>MVP State</strong>
+                <p id="profile-analytics-state" style="margin-top:8px;">—</p>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="layout-grid-2" style="padding-top:24px;">
+        <article class="card">
+          <h2>Product Layer Status</h2>
+          <div id="layer-status-list" class="layout-stack-md"></div>
+        </article>
+
+        <article class="card">
+          <h2>Governance Notes</h2>
+          <ul id="governance-notes"></ul>
+        </article>
+      </section>
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+</div>
+<script src="assets/js/auth.js"></script>
+<script src="assets/js/nav.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/profile.js"></script>
+<script src="assets/js/integration-layer.js"></script>
+</body>
+</html>

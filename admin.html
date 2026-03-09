@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>DecisionLens — Admin</title>
+<link rel="stylesheet" href="assets/css/tokens.css" />
+<link rel="stylesheet" href="assets/css/base.css" />
+<link rel="stylesheet" href="assets/css/layout.css" />
+<link rel="stylesheet" href="assets/css/components.css" />
+<link rel="stylesheet" href="assets/css/pages.css" />
+<link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+<body data-page="admin">
+<div class="layout-page">
+<div id="site-header"></div>
+
+<main class="placeholder-page">
+<div class="container">
+<section class="page-hero"><span class="badge">Admin Layer</span><h1 style="margin-top:12px;">Basic admin shell</h1><p>Manual approval, governance, and overview analytics for the MVP stage.</p></section>
+<section class="layout-grid-4">
+<div class="card-soft kpi"><small>Total users</small><span class="kpi-value" id="admin-users">—</span></div>
+<div class="card-soft kpi"><small>Active users</small><span class="kpi-value" id="admin-active">—</span></div>
+<div class="card-soft kpi"><small>Pending approvals</small><span class="kpi-value" id="admin-pending">—</span></div>
+<div class="card-soft kpi"><small>Revenue counter</small><span class="kpi-value" id="admin-revenue">—</span></div>
+</section>
+<section class="placeholder-grid" style="margin-top:24px;">
+<article class="card"><h2>Pending approvals</h2><div id="approval-queue" class="data-list"></div></article>
+<article class="card"><h2>Governance notes</h2><div class="layout-stack-md">
+<div class="card-soft"><strong>Phase 1 payment model</strong><p>USDT TRC20 with manual approval flow.</p></div>
+<div class="card-soft"><strong>Role guardrails</strong><p>Admin cannot change pricing or break core philosophy.</p></div>
+<div class="card-soft"><strong>Future admin actions</strong><p>News JSON upload, liquidity event management, and narrative mapping control.</p></div>
+</div></article>
+</section>
+</div>
+
+    <section class="layout-section" style="padding-top:24px;">
+      <div class="container">
+        <article class="card">
+          <h2>Phase 9 Production Readiness</h2>
+          <div class="layout-grid-3">
+            <div class="card-soft">
+              <strong>Operations</strong>
+              <p style="margin-top:8px;">Monitoring, backups, support workflow, and deployment discipline belong here next.</p>
+            </div>
+            <div class="card-soft">
+              <strong>Automation</strong>
+              <p style="margin-top:8px;">Notifications, expiry logic, reports, and certificates move toward real backend flows.</p>
+            </div>
+            <div class="card-soft">
+              <strong>Hardening</strong>
+              <p style="margin-top:8px;">Auth, premium enforcement, logs, and live infrastructure should move server-side.</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+<div id="site-footer"></div>
+</div>
+<script src="assets/js/auth.js"></script>
+<script src="assets/js/nav.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/gates.js"></script><script src="assets/js/admin.js"></script>
+</body>
+</html>
