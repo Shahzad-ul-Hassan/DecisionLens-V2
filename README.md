@@ -10,3 +10,9 @@ Included in this phase:
 - Synchronized dashboard refresh on window switch
 - Cleaner market overview card logic
 - Edge-case friendly data structure for future server/API expansion
+
+## Phase 3 Additions
+- Premium Intelligence page
+- Institutional Context Stack cards
+- Narrative Dynamics cards
+- Context Summary block
