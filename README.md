@@ -34,3 +34,13 @@ Included in this phase:
 - Contextual tags
 - Learning suggestion banner
 - Weekly-style behavior summary block
+
+## Phase 6 Additions
+- Structured Academy system page
+- 24-module roadmap
+- stage grouping
+- module library cards
+- local progress tracking
+- stage test shell
+- progress analytics shell
+- certification foundation
